@@ -1,37 +1,92 @@
+/* إعدادات عامة */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #f4f4f4; /* لون الخلفية العامة */
+    color: #333; /* لون النص */
 }
 
+/* الحاوية الرئيسية للسيرة الذاتية */
 .cv-container {
     width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: white;
+    background-color: #fff; /* خلفية بيضاء */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* إعدادات العناوين */
 h1, h2, h3 {
-    color: #333;
+    color: #333; /* لون النص الرئيسي */
 }
 
+/* إعدادات القسم الجانبي (إضافة خلفية داكنة) */
 .about, .experience, .contact, .education, .references {
     margin-bottom: 20px;
+    padding: 20px;
+    background-color: #333; /* خلفية داكنة للجزء الجانبي */
+    color: #fff; /* لون النص الأبيض للجزء الجانبي */
 }
 
+/* إعدادات العناوين الرئيسية */
 h1 {
     font-size: 36px;
     margin-bottom: 5px;
+    color: #fff; /* لون العنوان الرئيسي أبيض */
 }
 
 h2 {
     font-size: 24px;
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #fff; /* خط تحت العنوان باللون الأبيض */
     padding-bottom: 10px;
     margin-bottom: 15px;
+    color: #fff; /* لون العناوين الثانوية أبيض */
 }
 
+/* إعدادات الفقرات */
 p {
     line-height: 1.6;
+    color: #ddd; /* لون النص الرمادي الفاتح */
+}
+
+/* إعدادات الخلفية للمهارات واللغات */
+.skills, .language, .hobbies {
+    background-color: #555; /* خلفية رمادية للمهارات واللغات والهوايات */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.skills p, .language p, .hobbies p {
+    color: #fff; /* لون النص الأبيض */
+}
+
+/* إعدادات الروابط */
+a {
+    color: #f39c12; /* لون الروابط برتقالي فاتح */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e67e22; /* لون الروابط عند التمرير */
+    text-decoration: underline;
+}
+
+/* إعدادات الإطارات */
+.cv-container {
+    border: 1px solid #ddd; /* حدود خفيفة حول الحاوية */
+}
+
+/* إعدادات لوجو الهاتف */
+.contact i {
+    color: #f39c12; /* لون الأيقونة برتقالي فاتح */
+    margin-right: 10px; /* مسافة بين الأيقونة والرقم */
+}
+
+/* إعدادات الروابط للهاتف */
+.contact a {
+    color: #333; /* لون النص للرقم */
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #f39c12; /* تغيير اللون عند التمرير بالماوس */
 }
